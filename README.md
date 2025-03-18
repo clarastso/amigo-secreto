@@ -2,7 +2,7 @@
 
 Um projeto web interativo para realizar sorteios de amigo secreto de forma divertida e fácil!
 
-![alt text](https://github.com/clarastso/amigo-secreto/printclara.png "Print")
+![alt text](https://github.com/clarastso/amigo-secreto/blob/main/printclara.png "Print")
 
 ## ✨ Funcionalidades
 
