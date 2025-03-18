@@ -70,7 +70,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👥 Autores
 
-* **Seu Nome** - *Trabalho Inicial* - [SeuGitHub](https://github.com/seu-usuario)
+* **Clara Santos** - *Trabalho Inicial* - [SeuGitHub](https://github.com/clarastso)
 
 ## 🙏 Agradecimentos
 
