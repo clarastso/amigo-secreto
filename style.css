@@ -1,0 +1,196 @@
+:root {
+    --color-primary: #FD99A2; /* Rosa claro */
+    --color-secondary: #F9F1F3; /* Rosa bem suave para o fundo */
+    --color-tertiary: #F47C86; /* Rosa médio */
+    --color-button: #B2AC88; /* Verde suave */
+    --color-button-hover: #9C9678; /* Verde mais escuro */
+    --color-text: #333333; /* Texto escuro */
+    --color-white: #FFFFFF;
+}
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+.header-banner img {
+    width: 300px;
+    height: auto;
+}
+
+/* Seção de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-tertiary);
+    border-radius: 24px 24px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.main-title {
+    font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--color-tertiary);
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Contêineres de entrada e botão */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    gap: 0; /* Remove o espaço entre o input e o botão */
+}
+
+.input-name {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--color-tertiary);
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Botões */
+button {
+    padding: 16px 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border: 2px solid var(--color-tertiary);
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Botão Adicionar */
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-white);
+    border-radius: 0 25px 25px 0; /* Arredonda apenas o lado direito */
+    font-weight: 600;
+    padding: 18px 35px;
+    border: 2px solid var(--color-tertiary);
+    border-left: none; /* Remove a borda esquerda */
+}
+
+/* Resultado */
+.result-list {
+    margin-top: 15px;
+    color: var(--color-button-hover); /* Verde escuro */
+    font-size: 24px;  /* Maior para destaque */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Lista de nomes */
+.name-list {
+    list-style: none;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.name-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: var(--color-white);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.nome-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto-amigo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Resultado */
+.resultado-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.gato-gif {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* Botão de Sortear */
+.button-draw {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 35px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button-draw img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
